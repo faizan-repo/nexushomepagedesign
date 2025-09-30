@@ -369,7 +369,7 @@ header {
 /* second section start */
 .second-section {
   height: 60vh;
-  background-image: url('assets/img/digital-marketing-services.jpg');
+  background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80');
   background-repeat: no-repeat no-repeat;
   background-size: cover;
   background-position: center center;
