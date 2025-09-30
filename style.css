@@ -1,0 +1,1436 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+
+:root {
+  --primary-color: #2563EB;
+  --secondary-color: #1E40AF;
+  --primary-font-family: "Montserrat", sans-serif;
+  --secondary-font-family: "Baskervville", serif;
+  --tertiary-font-family: #ffc8145e;
+}
+
+h1,
+h2,
+h3,
+h4,
+mark {
+  font-family: var(--secondary-font-family) !important;
+}
+
+p {
+  font-family: var(--primary-font-family) !important;
+  font-size: 14px !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-style: normal;
+}
+
+
+.html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/**************************************************
+        CSS for Nav
+**************************************************/
+.navbar-nav .nav-link {
+  color: var(--secondary-color);
+  margin: 0 10px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.fa-brands:hover {
+  color: var(--secondary-color)
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-icon {
+  margin: 0 5px;
+}
+
+.nav-icon img {
+  height: 20px;
+}
+
+.cart-icon img {
+  height: 24px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media Screen */
+/* Base styles (Mobile first) */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-link {
+  color: var(--secondary-color);
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+}
+
+
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-icon {
+  margin: 0 5px;
+}
+
+.nav-icon img {
+  height: 20px;
+}
+
+.cart-icon img {
+  height: 24px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-nav a {
+  color: #000000;
+}
+
+/* Tablet styles (min-width: 768px) */
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    margin: 0 15px;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+}
+
+/* Desktop styles (min-width: 992px) */
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    margin: 0 20px;
+  }
+
+  .navbar-brand img {
+    height: 60px;
+  }
+
+  .carousel-img {
+    height: 600px;
+    /* Adjust as needed */
+  }
+}
+
+/* new hero css */
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url('assets/img/digital-marketing-hero.jpg');
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.header-area {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+}
+
+.header-box {
+  max-width: 650px;
+  height: auto;
+  /* background-color: #0d21a15a; */
+  background-color: rgba(0, 0, 0, 0.491);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  color: #fff;
+  text-align: left;
+}
+
+.header-box .btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  font-family: "Baskervville", serif;
+}
+
+.main-heading,
+.description {
+  color: #ffffff;
+}
+
+/* .hero-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url('/image/koral.jpg');
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.hero-background {
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  padding: 0 15%;
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  background-color: #5e544b62;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+.subheading {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: "Baskervville", serif;
+}
+
+.main-heading {
+  color: #fff;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Cinzel", serif;
+}
+
+.description {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}*/
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  font-family: "Baskervville", serif;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+
+/* ===== HEADER VIDEO CSS START */
+
+.header-vid {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.header-vid video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+/* ==== HEADER VIDEO CSS END */
+
+/* hero text styling */
+/* end */
+
+/* Responsive design for mobile devices */
+@media only screen and (max-width: 768px) {
+  .hero-img {
+    height: 30vh;
+    /* Adjust height for smaller screens */
+    background-attachment: scroll;
+    /* Disable fixed background on mobile for better performance */
+  }
+}
+
+/* css for 1st section in landing page after header */
+
+.card-content {
+  padding: 12px 12px;
+  /* display: flex;
+    justify-content:end;
+    align-items: center; */
+  text-align: justify;
+  flex-direction: column;
+}
+
+.card-content h2 {
+  text-align: left;
+}
+
+.card-content mark {
+  text-decoration: underline var(--primary-color);
+}
+
+.influencer-value {
+  padding: 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.influencer-card {
+
+  border: 8px solid #fff;
+  border-radius: 0 30px 0 30px;
+  width: 320px;
+  height: 430px;
+  position: relative;
+  overflow: hidden;
+}
+
+.influencer-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.influencer-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.influencer-body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 3, 3, 0.171);
+  position: absolute;
+  top: 0;
+  right: -400px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 30px 30px;
+  flex-direction: column;
+  color: white;
+  transition: 1s;
+  backdrop-filter: blur(2px);
+}
+
+/* second section start */
+.second-section {
+  height: 60vh;
+  background-image: url('assets/img/digital-marketing-services.jpg');
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* second section end */
+
+/* footer css */
+.footer-main {
+  background: linear-gradient(to right, #1a1a1a, #2d2d2d);
+  color: white;
+  padding: 60px 0 30px;
+  position: relative;
+}
+
+footer .widget-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer .menu-list .item-anchor {
+  color: #b0b0b0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+footer .menu-list .item-anchor:hover {
+  color: #ffffff;
+}
+
+footer .menu-list li {
+  margin-bottom: 12px;
+}
+
+footer .footer-logo img {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+footer .footer-logo img:hover {
+  transform: scale(1.05);
+}
+
+footer .social-links ul li a {
+  background: rgba(255, 255, 255, 0.1);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+footer .social-links ul li a i {
+  color: #fff;
+  font-size: 1rem;
+}
+
+footer .social-links ul li a:hover {
+  background: #ffffff;
+}
+
+footer .social-links ul li a:hover i {
+  color: #1a1a1a;
+}
+
+footer .social-links ul li a:hover {
+  transform: translateY(-3px);
+}
+
+footer #mail a,
+footer #number a,
+footer #address a {
+  color: #b0b0b0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+footer #mail a:hover,
+footer #number a:hover,
+footer #address a:hover {
+  color: #ffffff;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  margin-top: 40px;
+}
+
+footer .Copyright p {
+  color: #b0b0b0;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+footer p a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer p a:hover {
+  color: #007bff;
+}
+
+.widget-title {
+  color: var(--primary-color);
+}
+
+.text-start {
+  color: #fff;
+  text-decoration: none;
+}
+
+.list-unstyled a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.list-unstyled .menu-item a:hover {
+  color: var(--primary-color);
+}
+
+.list-unstyled a:hover {
+  color: var(--primary-color);
+}
+
+.footer-logo img {
+  height: 60px;
+  width: 60px;
+}
+
+.Copyright p {
+  color: #fff;
+}
+
+/* Service Card */
+:root {
+  --surface-color: #fff;
+  --curve: 40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.card {
+  border: 2px solid var(--primary-color);
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.service-section .col-md-4 {
+  margin: 20px 0;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: calc(var(--curve) * 1px);
+  background-color: var(--surface-color);
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  z-index: 1;
+}
+
+.card__arc path {
+  fill: var(--surface-color);
+  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: #6A515E;
+}
+
+.card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";
+  font-size: .8em;
+  color: #D7BDCA;
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: grey;
+  font-family: "MockFlowFont";
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
+
+/* End */
+
+/* Image Gallery on main page - OUR WORK */
+.gallery-title h1 {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.gallery-title hr {
+  border: 1px solid black;
+  width: 150px;
+}
+
+/* Our trusted Brand Tittle */
+.brands h1 {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.brands hr {
+  border: 1px solid black;
+  width: 360px;
+}
+
+/* for brand logo slider */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: #f2f2f2;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+/* .logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+} */
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 30s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
+
+/* End */
+
+/* Testimonial Code */
+
+.snip1533 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  margin: 35px 10px 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid var(--secondary-color);
+}
+
+.snip1533 *,
+.snip1533 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.snip1533 figcaption {
+  padding: 13% 10% 12%;
+}
+
+.snip1533 figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: var(--secondary-color);
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.snip1533 h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.snip1533 h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.snip1533 blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+
+/* Demo purposes only */
+
+body {
+  text-align: center;
+}
+
+
+/* Testimonial*/
+/* #testimonial {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#testimonial hr {
+  border: 1px solid black;
+  width: 225px;
+} */
+
+/* Form CSS in landing page */
+/* Contact Form Styles */
+/* Container and Form Styling */
+/* Container and Form Styling */
+#contact h3 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 16px;
+  color: #666;
+  font-weight: 400;
+}
+
+/* Form Input and Textarea Styling */
+
+/* Container and Row Styling */
+.contact-container {
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Space between image and form */
+
+}
+
+/* Image and Form Column Styling */
+/* .contact-img-col,
+.contact-form-col {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+} */
+
+.contact-img-col img,
+.contact-form-col form {
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Specific Styling */
+/* .contact-img-col img {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
+} */
+
+/* Form Styling */
+.contact-form-col form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* Ensure the form has the same border-radius as the image */
+}
+
+/* Form Input and Button Styling */
+.contact-form-col input[type="text"],
+.contact-form-col input[type="email"],
+.contact-form-col input[type="tel"],
+.contact-form-col textarea {
+  width: 100%;
+  /* Ensure full width for form fields */
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form-col button[type="submit"] {
+  width: 100%;
+  /* Full width for the button */
+  padding: 12px 15px;
+  /* Increase padding for a more substantial look */
+  background: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form-col button[type="submit"]:hover {
+  background: #FFC914;
+  transform: scale(1.02);
+  /* Slightly larger on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 15px;
+  }
+
+  .contact-row {
+    gap: 10px;
+  }
+
+  .contact-img-col img,
+  .contact-form-col form {
+    padding: 10px;
+  }
+
+  .contact-form-col button[type="submit"] {
+    font-size: 14px;
+  }
+}
+
+
+
+/* ******************************     Service Page CSS Starts here      ****************************** */
+/* ServiceHero Section CSS */
+.servicehero-img {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  /* Adjust height as needed */
+  background-image: url('assets/img/services-hero.jpg');
+  background-attachment: fixed;
+  /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* End of ServiceHero Section CSS */
+
+/* service list */
+.service-box p {
+  text-align: center;
+}
+
+.service-box h4 {
+  font-size: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+/* .service-box .icon {
+  filter: drop-shadow(2px 4px 8px var(--primary-color) );
+} */
+
+/* end service list */
+.servicehero-vid {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  /* Full height for larger screens */
+  overflow: hidden;
+}
+
+.servicehero-vid video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  /* Covers the container without distortion */
+}
+
+/* Adjustments for tablets and smaller screens */
+@media (max-width: 991px) {
+
+  /* Tablet view */
+  .servicehero-vid {
+    height: 50vh;
+    /* Reduce the height for tablets */
+  }
+
+  .servicehero-vid video {
+    object-fit: contain;
+    /* Adjust the video to fit the screen without cropping */
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+
+  /* Mobile view */
+  .servicehero-vid {
+    height: 50vh;
+    /* Further reduce height for mobile */
+  }
+
+  .servicehero-vid video {
+    object-fit: contain;
+    /* Ensure the video doesn't crop on smaller screens */
+    width: 100%;
+    height: auto;
+  }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+
+/* HAIR CARE */
+.hair_care {
+  border: 2px solid var(--primary-color);
+  height: 300px;
+  width: 500px;
+}
+
+.hair-heading h2 {
+  text-transform: uppercase;
+  font-family: "Baskervville", serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: left;
+}
+
+.hair-heading .btn {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* Responsive columns */
+  gap: 10px;
+  /* Space between items */
+  padding: 10px;
+  /* Space around the grid */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  /* Optional: add rounded corners to images */
+}
+
+/* Add a small margin on mobile devices */
+@media (max-width: 600px) {
+  .gallery {
+    gap: 5px;
+    padding: 5px;
+  }
+}
+
+/* Pop-Up form Modal */
+.modal-header .btn-close {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 150px;
+}
+
+.modal-title {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ****************************************** Contact Us Page ********************************************* */
+/* Contact Page of Landing Page with Query Form START*/
+
+.contact-area {
+  width: 100%;
+  height: auto;
+}
+
+.contact-box {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  gap: 20px;
+  padding: 20px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+
+.contact-img,
+.contact-form {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Contact Page of Landing Page with Query Form END*/
+
+
+/* Contact Us Hero Section */
+.contact-hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  /* Adjust height as needed */
+  background-image: url('assets/img/contact-hero.jpg');
+  background-attachment: fixed;
+  /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay, adjust opacity as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+
+/* mera custom box css edited by Rehaan */
+
+.contact-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px auto;
+}
+
+.contact-section .contact-info {
+  width: 100%;
+  height: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+.contact-info .icon-box {
+  background-color: var(--primary-color);
+  /* Darker pink for icon background */
+  color: var(--secondary-color);
+  font-size: 24px;
+  padding: 20px;
+  /* Increased padding for larger icons */
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 80px;
+  /* Fixed width for uniform size */
+  height: 80px;
+  /* Fixed height for uniform size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  /* Center the icon and add margin below */
+}
+
+.contact-info h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info p {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+}
+
+.contact-info p a {
+  text-decoration: none;
+  color: #000000
+}
+
+.contact-info i {
+  font-size: 32px;
+  /* Increased icon size for better visibility */
+}
+
+@media screen and (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+  }
+}
+
+
+
+/* General container and MAP styling */
+.gmap {
+  background-color: #ffffff;
+  border-radius: 28px;
+  /* outer radius = inner radius (20px) + padding (8px) */
+  padding: 20px;
+  /* Adding padding to ensure content doesn't touch the edges */
+  margin: 20px auto;
+  /* Center the container */
+}
+
+.map {
+  border-radius: 20px;
+  /* inner radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* Make the map responsive */
+  height: 100%;
+}
+
+/* Adjust FORM container */
+.form-container {
+  padding: 0px 20px 1px 20px;
+  /* Increased padding for better spacing */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Align input groups in a row */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group-row .input-group {
+  flex: 1;
+}
+
+.input-group-row .input-group:first-child {
+  margin-right: 10px;
+  /* Space between Full Name and Phone fields */
+}
+
+/* Standard input and textarea styling */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Submit button styling */
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.form-container button:hover {
+  background-color: var(--secondary-color);
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .gmap {
+    padding: 10px;
+  }
+
+  .map,
+  .form-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .input-group-row {
+    flex-direction: column;
+  }
+
+  .input-group-row .input-group:first-child {
+    margin-right: 0;
+    margin-bottom: 15px;
+    /* Space between stacked fields */
+  }
+}
+
+
+/* ****************************** About Page CSS ****************************** */
+
+
+.about-hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  /* Adjust height as needed */
+  background-image: url('assets/img/team.jpg');
+  background-attachment: fixed;
+  /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header-part {
+  width: 666px;
+  background-color: var(--primary-color)3a;
+  border-radius: 20px;
+}
+
+.header-part h1 {
+  margin-top: 30px 2px 2px 2px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.quality {
+  background-color: var(--primary-color)
+}
+
+.header-part p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.expertise img,
+.quality img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.expertise h2,
+.quality h2 {
+  color: black;
+  font-weight: bold;
+}
+
+/* .awards h3 {
+  color: var(--primary-color);
+  font-weight: bold;
+} */
+
+.digital-products h2 {
+  font-weight: bold;
+  font-family: var(--secondary-font-family);
+}
+
+.hair-products p {
+  font-family: var(--primary-font-family);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .expertise,
+  .quality {
+    text-align: center;
+  }
+
+  .quality .order-md-2,
+  .quality .order-md-1 {
+    order: 1 !important;
+  }
+
+  .awards .col-3 {
+    flex: 1 0 50%;
+    margin-bottom: 20px;
+  }
+
+  .products {
+    text-align: center;
+  }
+}

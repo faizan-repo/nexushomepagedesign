@@ -1,0 +1,67 @@
+/* Title - Our Trusted Brands - index.html */
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+
+  .navbar-nav .nav-item {
+    padding: 20px 0;
+  }
+
+  .btn-close {
+    position: relative;
+    right: 20px;
+  }
+
+  .brands h1 {
+    font-size: 28px;
+    /* Adjust font size for smaller screens */
+  }
+
+  .brands hr {
+    width: 200px;
+    /* Adjust hr width for smaller screens */
+  }
+
+  .influencer-value {
+    margin: auto;
+    text-align: center;
+  }
+
+  .header-vid {
+    height: 70vh;
+    /* Increased height for better visibility of digital marketing content */
+    object-fit: cover;
+  }
+
+  .header-vid video {
+    object-fit: contain;
+  }
+
+  .card {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+  }
+
+  .card__overlay {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .contact-box {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .brands h1 {
+    font-size: 20px;
+    /* Further adjust font size for extra small screens */
+  }
+
+  .brands hr {
+    width: 220px;
+    /* Further adjust hr width for extra small screens */
+  }
+
+}
