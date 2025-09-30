@@ -22,6 +22,36 @@
   <!-- favicon -->
   <!-- favicon -->
   <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1968/1968641.png" type="image/x-icon" />
+
+  <style>
+    .hero-banner-full {
+      width: 100vw;
+      min-height: 100vh;
+      margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header-area-full {
+      width: 100vw;
+      min-height: 100vh;
+      background: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1500&q=80') center center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+      .header-box {
+        max-width: 95vw !important;
+        padding: 1.5rem 0.5rem !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -74,12 +104,10 @@
     </div>
   </nav>
 
-  <header class="container-fluid">
-    <div class="header-area"
-      style="background: url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1500&q=80') center center/cover no-repeat; min-height: 420px; position: relative;">
+  <header class="hero-banner-full">
+    <div class="header-area-full">
       <div class="header-box"
         style="background: rgba(20, 20, 40, 0.55); border-radius: 18px; padding: 2.5rem 2rem; max-width: 540px; margin: 0 auto; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);">
-        <!-- <p class="subheading">Your Destination for Style and Beauty For Everyone, Every Day</p> -->
         <h1 class="main-heading" style="color: #fff; text-shadow: 0 2px 16px #000a;">
           Transform Your Digital<br />Presence Today
         </h1>
@@ -110,27 +138,26 @@
           <p class="para" data-aos="zoom-in">
             Welcome to Nexus Digital Solutions, your strategic partner in digital success.
             We are a results-driven digital marketing agency helping businesses thrive
-            of Patna, dedicated to offering an exceptional experience that
-            leaves you looking and feeling your best. At The Grace Salon, we
-            blend creativity, skill, and passion to provide a range of
-            services tailored to meet the unique needs of every client. The
-            Grace Salon is a team of experienced and talented professionals
-            who are passionate about the art of beauty. Our stylists,
-            colourists, and beauty experts are trained in the latest
+            in Patna and beyond. Our mission is to deliver exceptional digital solutions that
+            elevate your brand and drive measurable growth. At Nexus Digital Solutions, we
+            blend creativity, strategy, and technology to provide a range of
+            services tailored to meet the unique needs of every client. Our team of experienced
+            and talented professionals are passionate about the art of digital marketing. Our strategists,
+            designers, and marketing experts are trained in the latest
             techniques and trends, ensuring that we deliver cutting-edge
-            styles while focusing on personalised care. We take pride in our
+            campaigns while focusing on personalized service. We take pride in our
             ability to cater to a diverse clientele, offering a welcoming and
-            inclusive environment for everyone. Choosing The Grace Salon means
+            inclusive environment for everyone. Choosing Nexus Digital Solutions means
             choosing quality, expertise, and a team that genuinely cares about
-            your beauty journey. We use only the highest quality products and
-            the latest techniques to ensure that you leave our salon feeling
-            pampered, refreshed, and confident. Our clients trust us not just
-            for our skills, but for the warm and welcoming atmosphere we
-            create in our salon. We invite you to visit The Grace Salon and
-            experience the difference for yourself. Whether you need a quick
-            trim, a full makeover, or just some self-care time, we’re here to
-            make it happen. Book your appointment today, and let us help you
-            discover your best self.
+            your business growth. We use only the highest quality tools and
+            the latest techniques to ensure that you achieve your digital goals.
+            Our clients trust us not just
+            for our skills, but for the collaborative and supportive atmosphere we
+            create. We invite you to partner with Nexus Digital Solutions and
+            experience the difference for yourself. Whether you need a new website,
+            a full digital strategy, or just some expert advice, we’re here to
+            make it happen. Contact us today, and let us help you
+            discover your business’s full potential.
           </p>
         </div>
       </div>
@@ -138,8 +165,8 @@
       <div class="col-md-3">
         <div class="influencer-value">
           <div class="influencer-card shadow">
-            <img src="https://source.unsplash.com/random/600x400/?digitalinfluencer" alt="Digital Marketing Strategy"
-              data-aos="zoom-in" />
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+              alt="Digital Marketing" data-aos="zoom-in" />
             <div class="influencer-body">
               <h6 class="influencer-heading">Find Your Influencers Now</h6>
               <button type="button" class="card-button">Know More</button>
@@ -150,8 +177,8 @@
       <div class="col-md-3">
         <div class="influencer-value">
           <div class="influencer-card shadow">
-            <img src="https://source.unsplash.com/random/600x400/?socialmedia" alt="Social Media Marketing"
-              data-aos="zoom-out" />
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80"
+              alt="Social Media Marketing" data-aos="zoom-out" />
             <div class="influencer-body">
               <h6 class="influencer-heading">Find Your Influencers Now</h6>
               <button type="button" class="card-button">Know More</button>
@@ -179,7 +206,8 @@
       <!-- First Row: First 3 Cards -->
       <div class="col-md-4">
         <div class="card">
-          <img src="https://source.unsplash.com/random/800x600/?seo" class="card__image" alt="SEO Services" />
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80"
+            class="card__image" alt="SEO Services" />
           <div class="card__overlay">
             <div class="card__header">
               <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -201,8 +229,8 @@
 
       <div class="col-md-4">
         <div class="card">
-          <img src="https://source.unsplash.com/random/800x600/?socialmedia" class="card__image"
-            alt="Social Media Marketing" />
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80"
+            class="card__image" alt="Social Media Marketing" />
           <div class="card__overlay">
             <div class="card__header">
               <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -223,8 +251,8 @@
       </div>
       <div class="col-md-4">
         <div class="card">
-          <img src="https://source.unsplash.com/random/800x600/?contentwriting" class="card__image"
-            alt="Content Marketing" />
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80"
+            class="card__image" alt="Content Marketing" />
           <div class="card__overlay">
             <div class="card__header">
               <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -248,8 +276,8 @@
     <div class="row service-section">
       <div class="col-md-4">
         <div class="card">
-          <img src="https://source.unsplash.com/random/800x600/?digitaladvertising" class="card__image"
-            alt="Email Marketing" />
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
+            class="card__image" alt="Email Marketing" />
           <div class="card__overlay">
             <div class="card__header">
               <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -271,8 +299,8 @@
       </div>
       <div class="col-md-4">
         <div class="card">
-          <img src="https://source.unsplash.com/random/800x600/?analytics" class="card__image"
-            alt="Analytics & Reporting" />
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+            class="card__image" alt="Analytics & Reporting" />
           <div class="card__overlay">
             <div class="card__header">
               <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -292,8 +320,8 @@
       </div>
       <div class="col-md-4">
         <div class="card">
-          <img src="https://source.unsplash.com/random/800x600/?advertising" class="card__image"
-            alt="PPC Advertising" />
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80"
+            class="card__image" alt="PPC Advertising" />
           <div class="card__overlay">
             <div class="card__header">
               <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -330,7 +358,9 @@
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="portfolio-item">
-          <img src="https://source.unsplash.com/random/600x400/?website" class="img-fluid" alt="Website Design" />
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80"
+            class="img-fluid" alt="E-Commerce Website Redesign"
+            style="width:100%;height:auto;object-fit:cover;min-height:220px;" />
           <div class="portfolio-overlay">
             <h4>E-Commerce Website Redesign</h4>
             <p>200% increase in conversions</p>
@@ -339,8 +369,8 @@
       </div>
       <div class="col-md-4 mb-4">
         <div class="portfolio-item">
-          <img src="https://source.unsplash.com/random/600x400/?marketing" class="img-fluid"
-            alt="Social Media Campaign" />
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
+            class="img-fluid" alt="Social Media Campaign" />
           <div class="portfolio-overlay">
             <h4>Social Media Campaign</h4>
             <p>50K+ engagement increase</p>
@@ -349,7 +379,8 @@
       </div>
       <div class="col-md-4 mb-4">
         <div class="portfolio-item">
-          <img src="https://source.unsplash.com/random/600x400/?seo" class="img-fluid" alt="SEO Project" />
+          <img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?auto=format&fit=crop&w=600&q=80"
+            class="img-fluid" alt="SEO Project" />
           <div class="portfolio-overlay">
             <h4>SEO Optimization Project</h4>
             <p>First page rankings achieved</p>
@@ -360,7 +391,8 @@
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="portfolio-item">
-          <img src="https://source.unsplash.com/random/600x400/?content" class="img-fluid" alt="Content Marketing" />
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80"
+            class="img-fluid" alt="Content Marketing" />
           <div class="portfolio-overlay">
             <h4>Content Strategy</h4>
             <p>300% traffic increase</p>
@@ -369,7 +401,8 @@
       </div>
       <div class="col-md-4 mb-4">
         <div class="portfolio-item">
-          <img src="https://source.unsplash.com/random/600x400/?email" class="img-fluid" alt="Email Campaign" />
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80"
+            class="img-fluid" alt="Email Campaign" />
           <div class="portfolio-overlay">
             <h4>Email Marketing Campaign</h4>
             <p>45% open rate achieved</p>
@@ -378,7 +411,8 @@
       </div>
       <div class="col-md-4 mb-4">
         <div class="portfolio-item">
-          <img src="https://source.unsplash.com/random/600x400/?digital" class="img-fluid" alt="Digital Strategy" />
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80"
+            class="img-fluid" alt="Digital Strategy" />
           <div class="portfolio-overlay">
             <h4>Digital Strategy</h4>
             <p>150% ROI increase</p>
@@ -402,18 +436,26 @@
   </div>
   <div class="logos">
     <div class="logos-slide mb-5">
-      <img src="https://www.gstatic.com/images/branding/product/2x/google_ads_64dp.png" alt="Google Ads Partner" />
-      <img src="https://www.salesforce.com/content/dam/web/en_us/www/images/svg/salesforce-cloud-logo-sm.svg"
-        alt="Salesforce Partner" />
-      <img src="https://cdn.worldvectorlogo.com/logos/microsoft-ads.svg" alt="Microsoft Advertising Partner" />
-      <img src="https://www.hubspot.com/hubfs/HubSpot%20Logos/HubSpot-Logos-20/HubSpot-Logo-Solid-RGB.png"
-        alt="HubSpot Partner" />
-      <img src="https://cdn.worldvectorlogo.com/logos/semrush-1.svg" alt="SEMrush Certified" />
-      <img src="https://cdn.worldvectorlogo.com/logos/google-analytics-4.svg" alt="Google Analytics Certified" />
-      <img src="https://cdn.worldvectorlogo.com/logos/shopify-partners.svg" alt="Shopify Partner" />
-      <img src="https://cdn.worldvectorlogo.com/logos/meta-business-suite.svg" alt="Meta Business Partner" />
-      <img src="https://cdn.worldvectorlogo.com/logos/amazon-ads.svg" alt="Amazon Ads Partner" />
-      <img src="https://cdn.worldvectorlogo.com/logos/mailchimp-freddie-icon.svg" alt="Mailchimp Partner" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Ads_logo.svg" alt="Google Ads Partner"
+        style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Salesforce_logo.svg" alt="Salesforce Partner"
+        style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+        alt="Microsoft Advertising Partner" style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/HubSpot_Logo.svg" alt="HubSpot Partner"
+        style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/SEMrush_logo.svg" alt="SEMrush Certified"
+        style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Google_Analytics_Logo.png"
+        alt="Google Analytics Certified" style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Shopify_logo_2018.svg" alt="Shopify Partner"
+        style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Meta_Platforms_Logo.svg" alt="Meta Business Partner"
+        style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Ads Partner"
+        style="height:48px;" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mailchimp_Logo_2018.svg" alt="Mailchimp Partner"
+        style="height:48px;" />
     </div>
   </div>
 
@@ -444,47 +486,47 @@
         <blockquote>
           <p class="review">
             Outstanding digital marketing services! The team's SEO strategy helped us achieve first-page rankings for
-            our key terms.
-            <span class="dots">...</span><span class="more" style="display:none;"> Our organic traffic has increased by
-              200%
-              in just 6 months. Extremely professional and results-driven team! �</span>
+            our business and grow our online presence
+            <span class="dots">...</span><span class="more" style="display:none;">. Our organic traffic has increased by
+              200% in just 6 months. Extremely professional and results-driven team!</span>
             <span class="readMoreText" onclick="toggleReadMore(this)" style="color:blue; cursor:pointer;">Read
               more</span>
           </p>
         </blockquote>
         <h3>John Smith</h3>
         <h4>E-commerce CEO</h4>
-        <!-- <h4>Google Inc.</h4> -->
-      </figcaption>
-    </figure>
-    <figure class="snip1533">
-      <figcaption>
-        <blockquote>
-          <p>
-            The social media marketing campaign exceeded our expectations. Generated massive engagement
-            and significantly increased our brand visibility. Great ROI! �
-          </p>
-        </blockquote>
-        <h3>Sarah Johnson</h3>
-        <h4>Marketing Director</h4>
-        <!-- <h4>Facebook</h4> -->
       </figcaption>
     </figure>
     <figure class="snip1533">
       <figcaption>
         <blockquote>
           <p class="review">
-            Their content marketing strategy transformed our online presence. The quality of leads has improved
-            dramatically,
-            <span class="dots">...</span><span class="more" style="display:none;">and our conversion rate is up by 150%.
-              Highly recommend their professional services! �</span>
+            The social media marketing campaign exceeded our expectations and generated massive engagement for our
+            business and grow our online presence
+            <span class="dots">...</span><span class="more" style="display:none;">. Great ROI! Highly recommend Nexus
+              Digital Solutions for their creativity and professionalism.</span>
+            <span class="readMoreText" onclick="toggleReadMore(this)" style="color:blue; cursor:pointer;">Read
+              more</span>
+          </p>
+        </blockquote>
+        <h3>Sarah Johnson</h3>
+        <h4>Marketing Director</h4>
+      </figcaption>
+    </figure>
+    <figure class="snip1533">
+      <figcaption>
+        <blockquote>
+          <p class="review">
+            Their content marketing strategy transformed our online presence. The quality of leads has improved for our
+            business and grow our online presence
+            <span class="dots">...</span><span class="more" style="display:none;">. Our conversion rate is up by 150%.
+              Highly recommend their professional services!</span>
             <span class="readMoreText" onclick="toggleReadMore(this)" style="color:blue; cursor:pointer;">Read
               more</span>
           </p>
         </blockquote>
         <h3>Michael Brown</h3>
         <h4>Startup Founder</h4>
-        <!-- <h4>Twitter</h4> -->
       </figcaption>
     </figure>
   </div>
